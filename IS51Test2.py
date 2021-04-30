@@ -45,4 +45,29 @@ print above average / total grades * 100
 
 
 """
+"""
+========
+Final Code
+========
 
+"""
+
+infile = open("Final.txt", 'r')
+grades = [line.rstrip() for line in infile]
+infile.close()
+
+for all in range(len(grades)):
+    grades[all] = int(grades[all])
+
+averagegrade = sum(grades)/ len(grades)
+test = 0 
+grade = averagegrade
+for avgtest in grades:
+     if avgtest > averagegrade:
+         test += 1
+Percentabove= (100 * test / len(grades))
+
+print("Number of Grades:", len(grades))
+print("Average grade:", averagegrade)
+print("Percentage of grades above aveage: {0:.2f}%"
+    .format(Percentabove))

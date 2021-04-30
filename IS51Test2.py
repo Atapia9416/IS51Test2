@@ -18,3 +18,31 @@ The next command will find the average by calculting the sum of the list and div
 and finally you will need to calculate the amount of integers that are above the average by using a for/in command.
 
 """
+
+"""
+
+=========
+Question 2: Pseudo Code
+=========
+
+use infile to open up final.txt
+define grades variable to final.exe and format it into a string
+close infile
+
+use a for in command to convert the string of numbers to integers
+
+get the number of grades by using grade len command
+
+get the average by dividing sum by len for grades
+
+get the amount of scores that are above average by testing each number and seeing if its greater than average.
+
+print grade lens
+print  average
+print above average / total grades * 100
+
+
+
+
+"""
+
